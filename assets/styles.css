@@ -14,7 +14,7 @@
 .card:hover .card-img-top {
     transform: scale(1.1); /*agranda suavemente la imagen, esta bueno */
 }
-  
+
 .card-img-top {
     width: 100%;
     height: 500px;
@@ -23,7 +23,7 @@
     object-position: center;
     transition: transform 0.4s ease;
 }
-  
+
 .card-body {
     flex-grow: 1;
     display: flex;
@@ -31,15 +31,14 @@
     justify-content: space-between;
     padding: 1rem;
     text-align: center;
-  }
-  
+}
+
 .card-title {
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
-  
+
 .card-text {
     margin-top: auto;
 }
-  
