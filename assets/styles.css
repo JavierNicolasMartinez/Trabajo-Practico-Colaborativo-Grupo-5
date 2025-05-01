@@ -42,3 +42,68 @@
 .card-text {
     margin-top: auto;
 }
+
+/*Toda esta seccion del codigo es para trabajar el footer*/
+footer{
+    
+    background-color: gray;
+   
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+/*Seccion de enlaces*/
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.enlaces h6{
+    font-size: 1.3em;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.enlaces a:hover{
+    color: darkgray;
+}
+
+/*Seccion de redes sociales*/
+.redes_Sociales{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes_Sociales h6{
+    font-size: 1.3em;
+}
+
+.iconos{
+    font-size: 1.5em;
+
+    a{
+        color: black;
+    }
+}
+
+.iconos a:hover{
+    color: #fff;
+}
+/*Seccion de contacto*/
+.contactos{
+    margin-left: 100px;
+}
+
+.contactos .titulo{
+    font-size: 1.3em;
+}
