@@ -1,0 +1,109 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.50);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1); /*agranda suavemente la imagen, esta bueno */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-top: auto;
+}
+
+/*Toda esta seccion del codigo es para trabajar el footer*/
+footer{
+    
+    background-color: gray;
+   
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+/*Seccion de enlaces*/
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.enlaces h6{
+    font-size: 1.3em;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.enlaces a:hover{
+    color: darkgray;
+}
+
+/*Seccion de redes sociales*/
+.redes_Sociales{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes_Sociales h6{
+    font-size: 1.3em;
+}
+
+.iconos{
+    font-size: 1.5em;
+
+    a{
+        color: black;
+    }
+}
+
+.iconos a:hover{
+    color: #fff;
+}
+/*Seccion de contacto*/
+.contactos{
+    margin-left: 100px;
+}
+
+.contactos .titulo{
+    font-size: 1.3em;
+}
