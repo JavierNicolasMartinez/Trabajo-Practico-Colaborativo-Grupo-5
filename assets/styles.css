@@ -1,3 +1,8 @@
+.custom-color{
+    background-color: rgb(212, 207, 207); /*Cambio de color del nav al mismo color que el footer*/
+}
+
+
 .card {
     display: flex;
     flex-direction: column;
@@ -13,6 +18,7 @@
 
 .card:hover .card-img-top {
     transform: scale(1.1); /*agranda suavemente la imagen, esta bueno */
+    cursor: pointer;
 }
 
 .card-img-top {
@@ -46,7 +52,7 @@
 /*Toda esta seccion del codigo es para trabajar el footer*/
 footer{
     
-    background-color: gray;
+    background-color: rgb(212, 207, 207);
    
 }
 
@@ -69,12 +75,12 @@ footer{
 
 .enlaces a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 
 }
 
 .enlaces a:hover{
-    color: darkgray;
+    color: rgb(89, 89, 89);
 }
 
 /*Seccion de redes sociales*/
@@ -97,7 +103,7 @@ footer{
 }
 
 .iconos a:hover{
-    color: #fff;
+    color: rgb(89, 89, 89);
 }
 /*Seccion de contacto*/
 .contactos{
