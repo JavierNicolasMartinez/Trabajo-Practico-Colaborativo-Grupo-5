@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,9 +58,10 @@
   </figure>
 
 <!-- Parte imagenes -->
+ 
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
+        <div class="col" >
+          <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalDixit" style="cursor: pointer;">
             <img src="/assets/img/mesa/dixit.webp" class="card-img-top mx-auto d-block mt-3" alt="Dixit">
             <div class="card-body">
               <h5 class="card-title">Dixit</h5>
@@ -69,7 +70,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalMonopoly" style="cursor: pointer;">
             <img src="/assets/img/mesa/monopoly.webp" class="card-img-top mx-auto d-block mt-3" alt="Monopoly">
             <div class="card-body">
               <h5 class="card-title">Monopoly</h5>
@@ -78,7 +79,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100"  data-bs-toggle="modal" data-bs-target="#modalSheriff" style="cursor: pointer;">
             <img src="/assets/img/mesa/sheriff.webp" class="card-img-top mx-auto d-block mt-3" alt="Sheriff">
             <div class="card-body">
               <h5 class="card-title">Sheriff</h5>
@@ -87,16 +88,16 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100"  data-bs-toggle="modal" data-bs-target="#modalCarcassonne" style="cursor: pointer;">
             <img src="/assets/img/mesa/carcassone.webp" class="card-img-top mx-auto d-block mt-3" alt="Carcassone">
             <div class="card-body">
-              <h5 class="card-title">Carcassone</h5>
+              <h5 class="card-title">Carcassonme</h5>
               <p class="card-text">Precio a definir.</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100"  data-bs-toggle="modal" data-bs-target="#modalCatan" style="cursor: pointer;">
             <img src="/assets/img/mesa/catan.webp" class="card-img-top mx-auto d-block mt-3" alt="Catán">
             <div class="card-body">
               <h5 class="card-title">Catán</h5>
@@ -105,7 +106,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100"  data-bs-toggle="modal" data-bs-target="#modalClue" style="cursor: pointer;">
             <img src="/assets/img/mesa/clue.webp" class="card-img-top mx-auto d-block mt-3" alt="Clue">
             <div class="card-body">
               <h5 class="card-title">Clue</h5>
@@ -115,7 +116,7 @@
         </div>
 
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100"  data-bs-toggle="modal" data-bs-target="#modal4Linea" style="cursor: pointer;">
             <img src="/assets/img/mesa/4enlinea.webp" class="card-img-top mx-auto d-block mt-3" alt="4 en línea">
             <div class="card-body">
               <h5 class="card-title">4 en línea</h5>
@@ -124,7 +125,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100"  data-bs-toggle="modal" data-bs-target="#modalBatallaNaval" style="cursor: pointer;">
             <img src="/assets/img/mesa/batallanaval.webp" class="card-img-top mx-auto d-block mt-3" alt="Batalla Naval">
             <div class="card-body">
               <h5 class="card-title">Batalla Naval</h5>
@@ -133,7 +134,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100"  data-bs-toggle="modal" data-bs-target="#modalRummyBarako" style="cursor: pointer;">
             <img src="/assets/img/mesa/burako.webp" class="card-img-top mx-auto d-block mt-3" alt="Rummy-Burako">
             <div class="card-body">
               <h5 class="card-title">Rummy-Burako</h5>
@@ -146,7 +147,150 @@
       </div>
     </div>
     </main>
-    
+    <div class="modal fade" id="modalDixit" tabindex="-1" aria-labelledby="modalDixitLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalDixitLabel">Dixit</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Dixit (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalMonopoly" tabindex="-1" aria-labelledby="modalMonopolyLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalMonopolyLabel">Monopoly</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Monopoly (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalSheriff" tabindex="-1" aria-labelledby="modalSheriffLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalSheriffLabel">Sheriff</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Sheriff(imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalCarcassonne" tabindex="-1" aria-labelledby="modalCarcassonneLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalCarcassonneLabel">Carcassonne</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Carcassonne (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalCatan" tabindex="-1" aria-labelledby="modalCatanLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalCatanLabel">Catán</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Catán (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalClue" tabindex="-1" aria-labelledby="modalClueLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalClueLabel">Clue</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Clue (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal4Linea" tabindex="-1" aria-labelledby="modal4LineaLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal4LíneaLabel">4 en línea</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre 4 en línea (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalBatallaNaval" tabindex="-1" aria-labelledby="modalBatallaNavalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalBatallaNavalLabel">Batalla Naval</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Batalla Naval (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalRummyBarako" tabindex="-1" aria-labelledby="modalRummyBarakoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalRummyBarakoLabel">Rummy-Barako</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Contenido extra sobre Rummy-Barako (imagen grande, descripción, precio, etc.)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 <footer>
   <div class="footer-content">
     <div class="enlaces">
