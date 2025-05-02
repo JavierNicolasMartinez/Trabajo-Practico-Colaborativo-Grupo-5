@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,7 +57,7 @@
         <!-- Parte imagenes -->
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalDesconectados" style="cursor: pointer;">
                     <img src="/assets/img/cartas/desconectados.webp" class="card-img-top mx-auto d-block mt-3" alt="Desconectados">
                     <div class="card-body">
                       <h5 class="card-title">Desconectados</h5>
@@ -66,7 +66,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTesteamos" style="cursor: pointer;">
                     <img src="/assets/img/cartas/nolotesteamosniunpoco.webp" class="card-img-top mx-auto d-block mt-3" alt="No lo testeamos ni un poco">
                     <div class="card-body">
                       <h5 class="card-title">No lo testeamos ni un poco</h5>
@@ -75,7 +75,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalPoker" style="cursor: pointer;">
                     <img src="/assets/img/cartas/poker.webp" class="card-img-top mx-auto d-block mt-3" alt="Poker">
                     <div class="card-body">
                       <h5 class="card-title">Poker</h5>
@@ -84,7 +84,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTacoGato" style="cursor: pointer;">
                     <img src="/assets/img/cartas/taco-gato.webp" class="card-img-top mx-auto d-block mt-3" alt="Taco Gato Cabra Queso Pizza">
                     <div class="card-body">
                       <h5 class="card-title">Taco Gato Cabra Queso Pizza</h5>
@@ -93,7 +93,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTrio" style="cursor: pointer;">
                     <img src="/assets/img/cartas/trio.webp" class="card-img-top mx-auto d-block mt-3" alt="Trio">
                     <div class="card-body">
                       <h5 class="card-title">Trio</h5>
@@ -102,7 +102,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTruco" style="cursor: pointer;">
                     <img src="/assets/img/cartas/truco.webp" class="card-img-top mx-auto d-block mt-3" alt="Truco">
                     <div class="card-body">
                       <h5 class="card-title">Truco</h5>
@@ -112,7 +112,7 @@
                 </div>
         
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalUnanimo" style="cursor: pointer;">
                     <img src="/assets/img/cartas/unanimo.webp" class="card-img-top mx-auto d-block mt-3" alt="Unanimo">
                     <div class="card-body">
                       <h5 class="card-title">Unanimo</h5>
@@ -121,7 +121,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalUno" style="cursor: pointer;">
                     <img src="/assets/img/cartas/uno.webp" class="card-img-top mx-auto d-block mt-3" alt="Uno">
                     <div class="card-body">
                       <h5 class="card-title">Uno</h5>
@@ -130,7 +130,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalVirus" style="cursor: pointer;">
                     <img src="/assets/img/cartas/virus.webp" class="card-img-top mx-auto d-block mt-3" alt="Virus">
                     <div class="card-body">
                       <h5 class="card-title">Virus</h5>
@@ -143,7 +143,150 @@
               </div>
             </div>
             </main>
-
+            <div class="modal fade" id="modalDesconectados" tabindex="-1" aria-labelledby="modalDesconectadosLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalDesconectadosLabel">Desconectados</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Desconectados (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalTesteamos" tabindex="-1" aria-labelledby="modalTesteamosLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalTesteamosLabel">No lo testeamos ni un poco</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre No lo Testeamos ni un poco(imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalPoker" tabindex="-1" aria-labelledby="modalPokerLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalPokerLabel">Poker</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Poker (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalTacoGato" tabindex="-1" aria-labelledby="modalTacoGatoLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalTacoGatoLabel">Taco Gato Cabra Queso Pizza</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Taco Gato Cabra Queso Pizza (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalTrio" tabindex="-1" aria-labelledby="modalTrioLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalTrioLabel">Trio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Trio (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalTruco" tabindex="-1" aria-labelledby="modalTrucoLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalTrucoLabel">Truco</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Truco (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalUnanimo" tabindex="-1" aria-labelledby="modalUnanimoLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalUnanimoLabel">Unanimo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Unanimo (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalUno" tabindex="-1" aria-labelledby="modalUnoLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalUnoLabel">Uno</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Uno (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modalVirus" tabindex="-1" aria-labelledby="modalVirusLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalVirusLabel">Virus</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Contenido extra sobre Virus (imagen grande, descripción, precio, etc.)
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 <footer>
   <div class="footer-content">
     <div class="enlaces">
