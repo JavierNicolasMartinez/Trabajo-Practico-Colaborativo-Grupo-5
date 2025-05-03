@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +58,7 @@
         <!-- Parte imagenes -->
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalATR" style="cursor: pointer;">
                     <img src="/assets/img/party/atr.webp" class="card-img-top mx-auto d-block mt-3" alt="ATR">
                     <div class="card-body">
                       <h5 class="card-title">A.T.R</h5>
@@ -67,16 +67,16 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalHDP" style="cursor: pointer;">
                     <img src="/assets/img/party/juegohdp.webp" class="card-img-top mx-auto d-block mt-3" alt="HDP">
                     <div class="card-body">
                       <h5 class="card-title">H.D.P</h5>
-                      <p class="card-text">Precio a definir.</p>
+                      <p class="card-text">Precio a definir.</p>ñ
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalMemes" style="cursor: pointer;">
                     <img src="/assets/img/party/memes.webp" class="card-img-top mx-auto d-block mt-3" alt="Digalo con memes">
                     <div class="card-body">
                       <h5 class="card-title">Dígalo con Memes</h5>
@@ -85,7 +85,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalSayMyName" style="cursor: pointer;">
                     <img src="/assets/img/party/saymyname.webp" class="card-img-top mx-auto d-block mt-3" alt="Say My Name">
                     <div class="card-body">
                       <h5 class="card-title">Say My Name</h5>
@@ -94,7 +94,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalNoSombrero" style="cursor: pointer;">
                     <img src="/assets/img/party/sombrero.webp" class="card-img-top mx-auto d-block mt-3" alt="Esto no es un sombrero">
                     <div class="card-body">
                       <h5 class="card-title">Esto no es un sombrero</h5>
@@ -103,7 +103,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTheMind" style="cursor: pointer;">
                     <img src="/assets/img/party/themind.webp" class="card-img-top mx-auto d-block mt-3" alt="The mind">
                     <div class="card-body">
                       <h5 class="card-title">The Mind</h5>
@@ -113,7 +113,7 @@
                 </div>
         
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTomaloVos" style="cursor: pointer;">
                     <img src="/assets/img/party/tomalovos.webp" class="card-img-top mx-auto d-block mt-3" alt="Tomalo vos">
                     <div class="card-body">
                       <h5 class="card-title">Tómalo vos</h5>
@@ -122,7 +122,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTrucoArgentino" style="cursor: pointer;">
                     <img src="/assets/img/party/trucoargento.webp" class="card-img-top mx-auto d-block mt-3" alt="Truco Argento">
                     <div class="card-body">
                       <h5 class="card-title">Truco Argento</h5>
@@ -131,7 +131,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalUgaBuga" style="cursor: pointer;">
                     <img src="/assets/img/party/ugabuga.webp" class="card-img-top mx-auto d-block mt-3" alt="Uga Buga">
                     <div class="card-body">
                       <h5 class="card-title">Uga Buga</h5>
@@ -144,6 +144,154 @@
               </div>
             </div>
             </main>      
+
+          </div>
+        </div>
+        </main>
+        <div class="modal fade" id="modalATR" tabindex="-1" aria-labelledby="modalATRLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalATRLabel">A.T.R</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre A.T.R (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalHDP" tabindex="-1" aria-labelledby="modalHDPLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalHDPLabel">H.D.P</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre H.D.P(imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalMemes" tabindex="-1" aria-labelledby="modalMemesLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalPokerLabel">Dígalo con Memes</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre Dígalo con Memes (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalSayMyName" tabindex="-1" aria-labelledby="modalSayMyNameLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalSayMyNameLabel">Say My Name</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre Say My Name (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalNoSombrero" tabindex="-1" aria-labelledby="modalNoSombreroLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalNosSombreroLabel">Esto no es un sombrero</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre Esto no es un sombrero (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalTheMind" tabindex="-1" aria-labelledby="modalTheMindLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTheMindLabel">The Mind</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre The Mind (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalTomaloVos" tabindex="-1" aria-labelledby="modalTomaloVosLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTomaloVosLabel">Tomalo Vos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre Tomalo Vos (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalTrucoArgentino" tabindex="-1" aria-labelledby="modalTrucoArgentinoLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTrucoArgentinoLabel">Truco Argentino</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre Truco Argentino (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalUgaBuga" tabindex="-1" aria-labelledby="modalUgaBugaLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalUgaBugaLabel">Uga Buga</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                Contenido extra sobre Uga Uba (imagen grande, descripción, precio, etc.)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 <footer>
   <div class="footer-content">
