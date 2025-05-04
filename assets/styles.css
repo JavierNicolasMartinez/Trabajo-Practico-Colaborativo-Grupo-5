@@ -1,5 +1,5 @@
 .custom-color{
-    background-color: rgb(212, 207, 207); /*Cambio de color del nav al mismo color que el footer*/
+    background-color: #a2f0b9; /*Cambio de color del nav al mismo color que el footer*/
 }
 
 
@@ -112,4 +112,11 @@ footer{
 
 .contactos .titulo{
     font-size: 1.3em;
+}
+
+.modal-body img{
+   display: flex;
+   margin: auto;
+   justify-content: center;
+    width: 400px;
 }
