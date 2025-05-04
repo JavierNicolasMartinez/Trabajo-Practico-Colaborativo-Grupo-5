@@ -1,3 +1,15 @@
+.texto_inicio{
+    margin-top: 150px;
+
+}
+
+.imagen_inicio{
+    margin-top: 45px;
+    width: 500px;
+
+}
+
+
 .custom-color{
     background-color: #a2f0b9; /*Cambio de color del nav al mismo color que el footer*/
 }
@@ -56,42 +68,8 @@ footer{
    
 }
 
-.footer-content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 20px;
-}
-
-/*Seccion de enlaces*/
-.enlaces{
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
-}
-
-.enlaces h6{
-    font-size: 1.3em;
-}
-
-.enlaces a{
-    text-decoration: none;
-    color: #000;
-
-}
-
 .enlaces a:hover{
-    color: rgb(89, 89, 89);
-}
-
-/*Seccion de redes sociales*/
-.redes_Sociales{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.redes_Sociales h6{
-    font-size: 1.3em;
+    color: rgb(89, 89, 89) !important;
 }
 
 .iconos{
